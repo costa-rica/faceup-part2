@@ -50,7 +50,7 @@ export default function SnapScreen() {
     console.log("- dans btnPrendrePhoto 📸");
     const photo = await cameraRef.takePictureAsync({ quality: 0.3 });
     // const photoUri: string = photo.uri
-    // dispatch(addPhoto(photoUri))
+    dispatch(addPhoto(photo))
     console.log(photo);
   }
 

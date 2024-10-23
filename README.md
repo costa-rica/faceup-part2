@@ -1,7 +1,11 @@
 # faceup-part 2
+
+![sample.gif](docs/faceup-part2.gif)
+
 L’objectif d’aujourd’hui est d’implémenter une caméra fonctionnelle capable de prendre des photos qui pourront être visionnées depuis l’écran galerie.
 
-# installer
+
+## installer
 1. Creetion de projet
 - utiliser: `npx create-expo-app --template`
 - choisir: "Blank (Typescript)
@@ -18,3 +22,7 @@ expo install react-native-screens react-native-safe-area-context
 `yarn add @react-navigation/bottom-tabs@6`
 - Redux
 `yarn add react-redux @reduxjs/toolkit`
+
+## Notes de Code en particular
+- declare le payload dans le redux
+- initialiser le camera, flash, et sauvgaurde photos
